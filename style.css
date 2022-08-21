@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+.container {
+    width: 400px;
+    height: 650px;
+    background-color: rgb(208, 224, 230);
+    margin: 40px auto;
+    border-radius: 10px;
+    position: relative
+}
+
+.box {
+    margin: 30px;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px
+}
+
+.img-box {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box img {
+    border-radius: 10px;
+    max-width: 250px;
+    max-height: 350px;
+}
+
+.text {
+    margin-left: 10px;
+    text-align: center;
+
+
+
+}
+
+h2 {
+    padding: 22px;
+
+}
+
+p {
+    color: rgb(155, 156, 156);
+    margin-bottom: 10px;
+    padding: 28px;
+
+}
